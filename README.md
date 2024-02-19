@@ -167,14 +167,7 @@ calculate the slope of the terrain around each sampled tree and how far
 each tree was from the nearest road, and add these variables (roaddist
 (in km), and slope (in degrees)) to their dataset.
 
-    ## 
-    ## Attaching package: 'ggdag'
-
-    ## The following object is masked from 'package:stats':
-    ## 
-    ##     filter
-
-![](homework4instructions_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+<img src="DAG.jpeg" width="600px" />
 
 Refit the model from 2a to include the necessary variables to minimize
 bias in our estimation of the “thinning” variable, based on the
