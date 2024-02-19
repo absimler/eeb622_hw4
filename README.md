@@ -142,7 +142,7 @@ for/against the hypothesis, and a metric of model fit.
 **2b) (2 pts)** The researchers explicitly considered the potential for
 confounding relationships related to tree size in their design and
 randomized their post-fire sampling by tree size. Given this
-information, the researchers need to incorporate tree size into their
+information, do the researchers need to incorporate tree size into their
 glm to accurately estimate the effect of thinning? Why or why not?
 
 **2c) (5 pts)** The researchers submit their analysis for peer review,
