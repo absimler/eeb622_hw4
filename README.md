@@ -61,25 +61,30 @@ and 2012 surveys.
 
 ## Question 1: Mistletoe impacts on seedlings
 
-**1a) (4 pts)** Fit a glm assessing evidence for the following
+**1a) (5 pts)** Fit a glm assessing evidence for the following
 hypothesis: Seedling density is increased beneath trees experiencing
 mistletoe infection. Describe the rationale you used in selecting a glm
-structure and probability distribution.
+structure and probability distribution. Calculate model fit using MAE.
 
-**1b) (5 pts)** Based on your fitted model and a metric of model fit (of
-your choosing), write 2-4 sentences to answer the following biolgical
+**1b) (15 pts)** Use visual (e.g. a marginal effects plot) and 
+written (e.g. effect sizes on scale of response) approaches to interpret
+the results of your model. 
+
+Based on your fitted model results and model fit, 
+write 3-4 sentences to discuss the following biolgical
 conclusions:  
 Does mistletoe infection alter seedling density? How much does seedling
 recruitment differ beneath parasitized and unparasitized trees? Explain
-which elements of your glm results informed your conclusions and the
-steps you needed to take to interpret your parameters. You are welcome
-to present a graph or the estimates as numbers.
+which elements of your glm results informed your conclusions and annotate the
+steps you needed to take to interpret your parameters. 
 
-**1c) (4 pts)** During the course of this study, 2012 was an atypically
+**1c) (10 pts)** During the course of this study, 2012 was an atypically
 rainy year, compared to 2011. Fit an additional glm that quantifies how
 the effect of mistletoe differs between the two years in this study.
-Write ~2 sentences that summarize the results of the new model and their
+Write ~2 new sentences that summarize the results of the new model and their
 biological implications.
+
+
 
 <img src="thinning.jpeg" width="600px" />
 
@@ -131,8 +136,10 @@ head(treemortality)
     ## 5 5         0        1 3.3916483 25.06625  0.5099761
     ## 6 6         0        0 6.9336465 20.41989  9.7882557
 
+
 **2a) (5 pts)** Fit a glm (using a probability distribution of your
-choice) that reflects the following research question: Do forest
+choice) that reflects the following research question (including thinning
+as your only predictor and mortality as your response): Do forest
 thinning treatments reduce the probability of tree mortality? Interpret
 the results of the glm by writing 2-4 sentences about the biological
 significance of the effect of thinning, including descriptions of the
